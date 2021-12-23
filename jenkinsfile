@@ -1,9 +1,9 @@
 pipeline(){
   agent any
      stages {
-        stage ('build now') {
+        stage ('server details') {
           step {
-             sh 'mpstat'
+             sh 'ifconfig'
           }
         }
      }
